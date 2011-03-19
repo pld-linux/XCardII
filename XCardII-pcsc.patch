@@ -1,0 +1,20 @@
+--- XCardII-0.9.9/src/xcardMain.cpp.orig	2003-09-30 22:36:40.000000000 +0200
++++ XCardII-0.9.9/src/xcardMain.cpp	2011-03-19 08:11:44.753347580 +0100
+@@ -70,7 +70,7 @@
+ 
+ QProgressDialog *progressDialog;
+ 
+-void xcardMainReaderEvent(LPSCARD_READERSTATE_A preaderState);
++void xcardMainReaderEvent(LPSCARD_READERSTATE preaderState);
+ 
+ 
+ int ioCallbackForProgress(void *addparams, int currentProgress) {
+@@ -523,7 +523,7 @@
+ 
+ }
+ 
+-void xcardMainReaderEvent(LPSCARD_READERSTATE_A preaderState) {
++void xcardMainReaderEvent(LPSCARD_READERSTATE preaderState) {
+ 
+ 
+   xcardMain *xcardMainChannel;
