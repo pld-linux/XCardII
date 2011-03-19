@@ -5,6 +5,7 @@ Version:	0.9.9
 Release:	1
 License:	BSD
 Group:		Applications
+#Source0Download: https://alioth.debian.org/project/showfiles.php?group_id=30112
 Source0:	https://alioth.debian.org/frs/download.php/394/%{name}-%{version}.tar.gz
 # Source0-md5:	36a521169258a10ef388178284565e65
 Patch0:		%{name}-pcsc.patch
